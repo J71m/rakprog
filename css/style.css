@@ -1,0 +1,109 @@
+body {
+    font-family: 'Old Standard TT', serif;
+    margin-top:100px;
+}
+
+.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.navbar-inverse{
+    opacity:0.9;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+footer {
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom:0
+}
+footer {
+    background-color: #222222;
+    color: #aaa;
+    margin-bottom: 0;
+}
+footer {
+    margin-top: 60px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.middle-footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+footer .block-title {
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+
+footer .block-title .title {
+    color: #f7f7f7;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+}
+footer .footer-contacts .block-content li {
+    clear: left;
+    width: 100%;
+    padding: 5px 0;
+}
+ul, ol {
+    list-style: none;
+}
+footer .footer-contacts .block-content li .fa {
+    width: 30px;
+    float: left;
+    text-align: left;
+    line-height: 20px;
+}
+footer .footer-contacts .block-content li span.text {
+    width: calc(100% - 30px);
+    display: inline-block;
+}
+span.text {
+    text-decoration: none !important;
+}
+.bottom-footer {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    height: 60px;
+}
+footer .bottom-footer {
+    text-align: center;
+}
+footer .bottom-footer address {
+    line-height: 1;
+    margin-top: 13px;
+}
+#design-footer-copyright-text {
+      margin-top:10px;
+}
